@@ -2,6 +2,8 @@
  * Created by andrewshaffstall1 on 5/6/15.
  */
 
-var age = 21
+var  age; //declaration
+age = 21; //definition
+//storage container = value
 
-console.log(age)
+var yearOfBirth = 1994; //declaring and defining on the same line
