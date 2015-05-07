@@ -20,3 +20,12 @@ console.log("Each person ate " + slicesPerPerson + " slices of pizza at the part
 
 var remainder = pizzas * slices % people; //this calculates the remainder if each person got a whole slice of pizza
 console.log("Sparky got " + remainder + " slices of pizza"); //this displays how many slices of pizza sparky will get after the party
+
+//Problem 4
+
+var grocery = [45, 76, 90, 103, 68]; //this is the array showing the amounts spend each week on groceries
+
+var total = grocery[0] + grocery[1] + grocery[2] + grocery[3] + grocery[4]; //this calculates the total spent on groceries over 5 weeks
+var average = total/5; //this calculates the weekly average spent on groceries over the past 5 weeks
+
+console.log("You have spend a total of $" + total + " on groceries over 5 weeks. That is an average of $" + average + " per week"); //this displays the total and average to the user
