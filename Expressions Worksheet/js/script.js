@@ -15,3 +15,8 @@ var pizzas = 10; //number of pizzas ordered
 var slicesPerPerson = pizzas * slices / people; //this calculates how many slices of pizza each person at the party got
 
 console.log("Each person ate " + slicesPerPerson + " slices of pizza at the party"); //This displays how many slices each person at the party got
+
+//Problem #3
+
+var remainder = pizzas * slices % people; //this calculates the remainder if each person got a whole slice of pizza
+console.log("Sparky got " + remainder + " slices of pizza"); //this displays how many slices of pizza sparky will get after the party
