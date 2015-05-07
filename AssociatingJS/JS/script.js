@@ -2,10 +2,11 @@
  * Created by andrewshaffstall1 on 5/6/15.
  */
 
-var age = 21; //number variable
+var muppetNames = ["Kermit", "Miss Piggy"]; //0,1,2,3
 
-var isStudent = false; //Boolean Variable
+muppetNames[1] = "Rizzo"; //changes index #1 to Rizzo
+muppetNames[2] = "Fozzy";
 
-var firstName = "Andrew";
+var num = 2
 
-var phrase = 'I don\'t know you\'ll have to talk to the professor';
+console.log(muppetNames[num]); //lets me see whats in the index #1
