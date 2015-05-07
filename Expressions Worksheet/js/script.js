@@ -29,3 +29,16 @@ var total = grocery[0] + grocery[1] + grocery[2] + grocery[3] + grocery[4]; //th
 var average = total/5; //this calculates the weekly average spent on groceries over the past 5 weeks
 
 console.log("You have spend a total of $" + total + " on groceries over 5 weeks. That is an average of $" + average + " per week"); //this displays the total and average to the user
+
+//Problem #4
+
+var ogPrice = 19.99; //this is the original price of the item
+var disPerc = 20; //this is the discount percentage
+var item = "bread"; //this is the item for sale
+var salesTax = 8.3; //this is the local sales tax
+
+var itemWithoutTax = ogPrice - ogPrice * (disPerc/100); //this calculates the item with discount without tax
+var itemWithTax = itemWithoutTax * (salesTax/100) + itemWithoutTax; //this calculates the item with discount with tax
+
+console.log("Your " + item + " was originally $" + ogPrice + ", but after a " + disPerc + "% discount, it is now $" + itemWithoutTax + " without tax, and $" + itemWithTax + " with tax"); //this displays the cost of item before and after discount and taxes to the user
+
