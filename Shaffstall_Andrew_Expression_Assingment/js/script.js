@@ -11,6 +11,20 @@ var phonePrice  =  649.99; //this is the full price of the phone
 
 var equipmentInstallment = (total + phonePrice)/24; //this is the total of the equipment installment plan divided up over 24 months
 
-console.log(equipmentInstallment); //This will test and make sure that the program works
+//console.log(equipmentInstallment); //This will test and make sure that the program works
+
+var monthly = 50; //this is the base monthly cost for cell service
+
+var data = [0, 10, 20, 30]; //these are the data options
+
+monthly += (data[1] + equipmentInstallment); //this adds the base monthly cost, the chosen data cost, and the EIP
+
+console.log(monthly); //this shows the above equation in the console
+
+
+
+
+
+
 
 
