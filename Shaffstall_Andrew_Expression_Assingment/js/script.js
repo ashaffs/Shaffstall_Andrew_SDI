@@ -21,7 +21,7 @@ monthly += (data[1] + equipmentInstallment); //this adds the base monthly cost, 
 
 console.log(monthly); //this shows the above equation in the console
 
-
+alert("Your total monthly cost with us will be $" + monthly); //this will tell the user their monthly total
 
 
 
