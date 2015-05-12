@@ -25,6 +25,6 @@ alert("Your total monthly cost with us will be $" + monthly); //this will tell t
 
 
 
-//i switched what numbers were in place as well as what spot in the arrays i used to make sure that the code actually worked with changes made.
+//i switched what numbers were in place as well as what spot in the arrays i used to make sure that the code actually worked with changes made. I also tried typing in many different numbers such as 650, 50, 10 as well as 750, 40, and 30 into the prompts to make sure it works with all numbers.
 
 
