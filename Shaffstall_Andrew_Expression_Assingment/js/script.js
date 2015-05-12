@@ -7,24 +7,24 @@ var total = accPrice[0] + accPrice[1] + accPrice[2] + accPrice[3] + accPrice[4];
 
 //console.log(total); //this was a test to see if the link will work with the program
 
-var phonePrice  =  649.99; //this is the full price of the phone
+var phonePrice  =  Number(prompt("Please enter the cost of the phone that you chose")); //this is the full price of the phone
 
-var equipmentInstallment = (total + phonePrice)/24; //this is the total of the equipment installment plan divided up over 24 months
+var eip = (total + phonePrice)/24; //this is the total of the equipment installment plan divided up over 24 months
 
-//console.log(equipmentInstallment); //This will test and make sure that the program works
+//console.log(eip);
 
-var monthly = 50; //this is the base monthly cost for cell service
+var monthly = Number(prompt("Please enter the chosen monthly service cost:")); //this is the base monthly cost for cell service
 
-var data = [0, 10, 20, 30]; //these are the data options
+var data = Number(prompt("Please enter the chosen monthly data cost:")); //these are the data options
 
-monthly += (data[1] + equipmentInstallment); //this adds the base monthly cost, the chosen data cost, and the EIP
+monthly += (data + eip); //this adds the base monthly cost, the chosen data cost, and the EIP
 
-console.log(monthly); //this shows the above equation in the console
+//console.log(monthly); //this shows the above equation in the console
 
 alert("Your total monthly cost with us will be $" + monthly); //this will tell the user their monthly total
 
 
 
-
+//i switched what numbers were in place as well as what spot in the arrays i used to make sure that the code actually worked with changes made.
 
 
