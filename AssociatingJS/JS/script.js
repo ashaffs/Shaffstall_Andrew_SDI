@@ -2,9 +2,7 @@
  * Created by andrewshaffstall1 on 5/6/15.
  */
 
-function outptMsg(){
-    console.log("Hello World");
-}
+var width = 5;
 
 function calcArea(){
     var width = 20;
@@ -13,6 +11,4 @@ function calcArea(){
     console.log(area);
 }
 
-calcArea();
-calcArea();
 calcArea();
