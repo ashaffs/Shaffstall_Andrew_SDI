@@ -2,10 +2,10 @@
  * Created by andrewshaffstall1 on 5/6/15.
  */
 
-function dogYears(age){
-    var age = 4;
-    var dogYears = age * 7;
-    console.log("Sparky is " + dogYears + " years old.");
+var total = calcArea(30, 20);
+
+function calcArea(w, h){
+    var area = w * h;
+    return area;
 }
-var age1 = (4);
-dogYears(age1);
+console.log(total);
