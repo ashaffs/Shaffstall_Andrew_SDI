@@ -17,4 +17,7 @@ function horizontalPpi(widthPixels, widthInches){//this is the start of the func
     return widthPpi; //this spits the answer back outside of the function
 }
 
-
+var averagePpi = function(verticalPpi, horizontalPpi){
+    var average = (verticle + horizontal)/2;
+    return average;
+}
